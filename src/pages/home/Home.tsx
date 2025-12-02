@@ -1,3 +1,5 @@
+import ModalProduto from "../../components/produto/modalproduto/ModalProduto";
+
 function Home() {
   return (
     <>
@@ -9,7 +11,14 @@ function Home() {
 
           {/* COLUNA ESQUERDA */}
           <div className="flex flex-col gap-4 items-center md:items-start px-4">
-            <h2 className="text-5xl font-bold">Seja Bem Vinde! à PrimeFarma</h2>
+            <h2 className="text-5xl font-bold">Seja Bem Vinde à PrimeFarma!</h2>
+
+             {/* Essa é um link/botao */}
+            <div className="flex justify-around gap-4">
+
+              <ModalProduto />
+
+            </div>
 
             <p className="text-xl">
               Cuidando da sua saúde com confiança e qualidade.
