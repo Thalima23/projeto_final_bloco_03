@@ -1,3 +1,4 @@
+import ModalCategoria from "../../components/categoria/modalcategoria/ModalCategoria";
 import ModalProduto from "../../components/produto/modalproduto/ModalProduto";
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
             <div className="flex justify-around gap-4">
 
               <ModalProduto />
+              <ModalCategoria />
 
             </div>
 
