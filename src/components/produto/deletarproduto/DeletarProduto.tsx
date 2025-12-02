@@ -45,7 +45,7 @@ function DeletarProduto() {
 
       {produto && (
         <div className="border flex flex-col rounded-2xl overflow-hidden justify-between">
-          <header className="py-2 px-6 bg-amber-600 text-white font-bold text-2xl">
+          <header className="py-2 px-6 bg-green-600 text-white font-bold text-2xl">
             {produto.nome}
           </header>
 
@@ -80,7 +80,7 @@ function DeletarProduto() {
             {/* CONFIRMAR */}
             <button
               onClick={confirmarDelete}
-              className="w-full text-slate-100 bg-amber-400 hover:bg-amber-600 py-2"
+              className="w-full text-slate-100 bg-green-400 hover:bg-green-600 py-2"
             >
               Sim
             </button>

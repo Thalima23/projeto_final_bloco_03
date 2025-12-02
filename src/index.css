@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+
+/* Serve pra deixar o fundo de uma cor só*/
+
+html, body {
+  @apply m-0 p-0 bg-green-800;
+}

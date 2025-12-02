@@ -22,7 +22,7 @@ function ListaProduto() {
     }, []);
 
     return (
-        <div className="flex justify-center w-full my-4 bg-green-700">
+        <div className="flex justify-center w-full my-4 bg-green-300">
             <div className="container flex flex-col mx-4">
 
                 {isLoading && (

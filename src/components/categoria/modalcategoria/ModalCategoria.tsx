@@ -10,8 +10,9 @@ function ModalCategoria() {
             <Popup
                 trigger={
                     <button
-                        className='border rounded px-4 py-2 hover:bg-white hover:text-amber-800'>
+                        className='border rounded px-10 py-2 hover:bg-white hover:text-green-800'>
                        Nova Categoria
+
                     </button>
 
                     

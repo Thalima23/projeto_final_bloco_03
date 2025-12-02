@@ -14,8 +14,7 @@ function CardProduto({ produto }: CardProdutoProps) {
             {/* Cabeçalho com imagem do produto */}
             <div>
                 <div className="flex w-full bg-green-600 py-2 px-4 items-center gap-4">
-                    <img
-                        src={produto.foto}
+                    <img src={produto.foto}
                         className="h-16 w-16 object-cover rounded"
                         alt={produto.nome}
                     />

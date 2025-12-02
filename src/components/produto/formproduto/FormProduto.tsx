@@ -208,7 +208,7 @@ function FormProduto() {
         <button
           type="submit"
           disabled={isLoading}
-          className="rounded bg-amber-500 hover:bg-amber-800 text-white font-bold 
+          className="rounded bg-green-500 hover:bg-green-800 text-white font-bold 
           w-1/2 mx-auto py-2 flex justify-center items-center gap-2"
         >
           {isLoading ? <ClipLoader size={20} color="#ffffff" /> : id ? "Atualizar" : "Cadastrar"}

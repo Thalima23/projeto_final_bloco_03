@@ -45,26 +45,27 @@ function FormCategoria() {
 
   return (
     <div className="container flex flex-col items-center justify-center mx-auto">
-      <h1 className="text-4xl text-center my-8">
+      <h1 className="text-4xl text-zinc-700 my-8">
         {id ? "Editar Categoria" : "Cadastrar Categoria"}
       </h1>
 
       <form className="w-1/2 flex flex-col gap-4" onSubmit={enviar}>
         <div className="flex flex-col gap-2">
-          <label htmlFor="nome">Nome da Categoria</label>
+          <label htmlFor="nome" className="text-white">
+            Nome da Categoria</label>
           <input
             type="text"
             placeholder="Ex: Perfume, Dermo-Cosmético, Antibiótico..."
             name="nome"
             value={categoria.nome}
             onChange={atualizarEstado}
-            className="border-2 border-slate-700 rounded p-2"
+            className="border-2 border-white-700 rounded p-2"
           />
         </div>
 
         <button
-          className="rounded text-slate-100 bg-amber-500 
-                     hover:bg-amber-800 w-1/2 py-2 mx-auto flex justify-center"
+          className="rounded text-gray-800 bg-green-500 
+                     hover:bg-green-600 w-1/2 py-2 mx-auto flex justify-center"
           type="submit"
         >
           {id ? "Atualizar" : "Cadastrar"}
