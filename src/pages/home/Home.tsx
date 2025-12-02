@@ -14,8 +14,6 @@ function Home() {
 			<div className="py-2 md:py-0 md:mb-4">
 				<ListaProduto />
 
-        <ListaCategorias />
-
 			</div>
 		</>
 	)
