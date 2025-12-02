@@ -2,7 +2,7 @@ import axios from "axios";
 
 //Instância Axios
 const api = axios.create({
-    baseURL: 'https://farmacia-ug0p.onrender.com'
+    baseURL: import.meta.env.VITE_API_URL
 })
 
 // ========== CRUD SEM TOKEN ========== //
